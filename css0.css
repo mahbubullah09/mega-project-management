@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 50%;
+     margin: 0;
+    
+          color: azure;
+  }
+  .body_c {
+    height: 50%;
+     margin: 0;
+    
+     background-image: url(18.png);
+     background-color: #cccccc;
+     background-size: 100% 100%;
+     color: azure;
+  }
+  .body_a {
+    height: 50%;
+     margin: 0;
+    
+     
+     background-color: #cccccc;
+     background-size: 100% 100%;
+     color: azure;
+  }
+
+
+ 
+  .body_s {
+    height: 50%;
+     margin: 0;
+     background-color: #cccccc;
+     background-size: cover;
+     
+     
+     
+     color: rgb(247, 255, 255);
+  }
+  
+  
+  /* Style the header */
+  .header {
+    background-image: url(25.jpg);
+     background-color: #cccccc;
+    color: rgb(245, 239, 239);
+    background-size: 100% 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #2a5470;
+    color: rgb(8, 8, 8);
+  }
+  .topnav .login-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .login-container button:hover {
+    background: #ccc;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+
+  
+ 
+  /* Create three equal columns that floats next to each other */
+  .about {
+    background-image: url(4.jpg);
+    font-size: x-large;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+  }
+  .tabout{
+    padding-left: 5%;
+    padding-top: 25%;
+    width: 70%;
+    text-align: left;
+    color: white;
+
+
+
+  }
+  .tabout2{
+  width: 30%;
+   float: left;
+   font-size: small;
+   padding-bottom: 5%;
+   padding-right: 2%;
+  }
+
+ .anabout{
+  background-color: blueviolet;
+  color: white;
+  height: 200px;
+ }
+ .anabout2{
+  width: 32%;
+   float: left;
+   font-size: medium;
+   padding-left: 5%;
+   padding-bottom: 5%;
+   padding-right: 2%;
+  }
+  .home {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    padding: 20px;
+    background-size: cover;
+    height: 600px;
+    background-image: url(5.jpg);
+     background-color: #cccccc;
+     color: #080808;
+     padding-left: 5%;
+     padding-top: 10%;
+
+    
+  }
+  .home1{
+    
+    height: 200px;
+    background-color: rgb(99, 75, 75);
+  }
+  .home2{
+    width: 45%;
+    float: left;
+    font-size: medium;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 2%;
+  }
+
+  .column_contact {
+   
+    text-align: center;
+    font-size: x-large;
+    padding: 20px;
+    padding-left:5%;
+    
+  }
+
+ .mission{
+  height: 750px;
+  background-color: #3582b6;
+  color: white;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+ padding-right: 5%;
+  padding-left: 5%;
+
+ }
+ 
+
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .footer{
+    background-color: beige;
+    color: #080808;
+    text-align: center;
+  }
+  /* Clear floats after the columns */
+ 
+  .column {
+    float: left;
+    
+    width: 50%;
+    padding: 0 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    height: 300px;
+    text-align: center;
+    background-color: #224b72;
+  }
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:400px) {
+    .column {
+      width: 1000%;
+    }
+  
+  
+   
+   
+
+    
+ 

@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    background-color: gold;
+  }
+  
+      /*Controlling Image*/
+      
+    .image {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    float:left;
+   
+    padding: 5px;
+    width: 170px;
+    margin-bottom:10px;
+    margin-left:10px;
+  }
+  
+  .position{
+      position:absolute;
+      width:60%;
+  
+  }
+  /*Controlling paragraph:*/
+  
+  .paragraph{
+    
+    margin-top: 25px;
+    margin-bottom:10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-right: 10%;
+    padding-right: 5px;
+    font-size:20px;
+    font-family:	Times New Roman;
+    text-align:justify;
+    width: 700px;
+    
+  
+  }
+      .about{margin-left:220px;
+              font-size:20px;
+        width: 30%;
+      }
+  
+  
+  /* Style the header */
+  .header {
+    background-color: aqua;
+    padding:2px;
+    text-align: center; 
+    font-size:30px;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+  
+  /* Style the top navigation bar */
+  .bottomnav {
+    overflow: hidden;
+    background-color: #d2a679;
+    color:red;
+    font-size:20px;
+    
+    
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: tomato;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+    font-size:25px;
+    font-weight: bold;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav .login-container button {
+  
+      float: right;
+      padding: 6px;
+      margin-top: 2%;
+      margin-right: 16px;
+      background: #ddd;
+      font-size: 17px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .topnav .login-container button:hover {
+      background: #ccc;
+    }
+  
+  .data{
+    margin-top: 30px;
+    margin-bottom: 5%;
+    width: 50%;
+  }
+  .hire{
+    font-size: 18px;
+    background: #4070f4;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+    margin-left: 230px;
+    margin-bottom:30px;
+  }
+  .hire:hover{
+    background: #000;
+    border: 1px solid #4070f4;
+  }
+  
+  .img{
+   height: 350px;
+   width: 450px;
+   float: right;
+   margin-right: 50px;
+   margin-left: 3%;
+   margin-bottom: 40px;
+    
+    
+    
+  }
